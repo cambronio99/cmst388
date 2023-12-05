@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    margin-top: 5px;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}
