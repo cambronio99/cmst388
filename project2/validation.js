@@ -27,7 +27,6 @@ function submitForm() {
     if (errors.length > 0) {
         document.getElementById('errorContainer').innerHTML = errors.join("<br>");
     } else {
-        // Email the form data (implementation needed)
         alert("Form submitted successfully!"); // Placeholder for successful submission
         document.getElementById('contactForm').reset(); // Reset the form after submission
     }
